@@ -437,7 +437,7 @@ video {
 
 /* /media query */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-text-section {
     width: 80vw;
   }
@@ -461,6 +461,8 @@ video {
     font-size: 0.7em;
     padding: 5px 10px;
   }
+}
+@media (max-width: 767px) {
   .grids {
     display: flex;
     flex-direction: column;

@@ -437,7 +437,7 @@ video {
 
 /* /media query */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hero-text-section {
     width: 80vw;
   }
@@ -455,8 +455,6 @@ video {
   .admission-process-section {
     padding: 50px 60px;
   }
-}
-@media (max-width: 767px) {
   .grids {
     display: flex;
     flex-direction: column;

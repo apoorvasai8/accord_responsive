@@ -426,6 +426,8 @@ video {
   border-radius: 10px;
   margin-bottom: 20px;
   color: rgb(244, 244, 244);
+  align-items: center;
+  gap: 10px;
 }
 .grid-mid-img {
   height: 100%;
@@ -435,30 +437,35 @@ video {
 
 /* /media query */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hero-text-section {
     width: 80vw;
   }
   .hero-text-section h3 {
-    font-size: 3em;
+    font-size: 6em;
   }
   .hero-text-section p {
-    font-size: 1.4em;
+    font-size: 3em;
   }
   .apply-btn {
     font-size: 1em;
     width: 250px;
     padding: 5px 10px;
   }
+  .admission-process-section {
+    padding: 50px 60px;
+  }
   .grids {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-1 {
+    width: 70vw;
   }
   .grid-2 {
     display: none;
-  }
-  .admission-process-section {
-    padding: 50px 60px;
   }
 }
 @media (min-width: 601px) {

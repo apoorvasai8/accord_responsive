@@ -440,7 +440,7 @@ video {
 
 /* /media query */
 
-@media (max-width: 1250px) {
+@media (max-width: 1440px) {
   .hero-text-section {
     width: 80vw;
   }

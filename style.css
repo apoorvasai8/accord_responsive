@@ -440,15 +440,15 @@ video {
 
 /* /media query */
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .hero-text-section {
     width: 80vw;
   }
   .hero-text-section h3 {
-    font-size: 3em;
+    font-size: 3.2em;
   }
   .hero-text-section p {
-    font-size: 2em;
+    font-size: 1.4em;
   }
   .apply-btn {
     font-size: 1.7em;
@@ -458,14 +458,6 @@ video {
   .admission-process-section {
     padding: 50px 60px;
   }
-}
-/* @media (min-width: 601px) {
-  .apply-btn {
-    font-size: 0.7em;
-    padding: 5px 10px;
-  }
-} */
-@media (max-width: 767px) {
   .grids {
     display: flex;
     flex-direction: column;
@@ -479,3 +471,9 @@ video {
     display: none;
   }
 }
+/* @media (min-width: 601px) {
+  .apply-btn {
+    font-size: 0.7em;
+    padding: 5px 10px;
+  }
+} */

@@ -440,15 +440,15 @@ video {
 
 /* /media query */
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .hero-text-section {
     width: 80vw;
   }
   .hero-text-section h3 {
-    font-size: 3.2em;
+    font-size: 3em;
   }
   .hero-text-section p {
-    font-size: 1.4em;
+    font-size: 2em;
   }
   .apply-btn {
     font-size: 1.7em;

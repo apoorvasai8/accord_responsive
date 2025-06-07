@@ -230,7 +230,7 @@ img {
 
 /* section2 */
 .hero {
-  height: 50vh;
+  height: 51vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -348,6 +348,9 @@ video {
   padding: 50px 150px;
   color: rgb(0, 0, 0);
 }
+.admission-process-section h5 {
+  text-decoration: underline;
+}
 /* accordion sections */
 .accordion {
   background-color: transparent;
@@ -442,10 +445,10 @@ video {
     width: 80vw;
   }
   .hero-text-section h3 {
-    font-size: 6em;
+    font-size: 2em;
   }
   .hero-text-section p {
-    font-size: 3em;
+    font-size: 1em;
   }
   .apply-btn {
     font-size: 1em;

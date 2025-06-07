@@ -454,6 +454,7 @@ video {
     font-size: 1.7em;
     width: 250px;
     padding: 5px 10px;
+    background-color:green;
   }
   .admission-process-section {
     padding: 50px 60px;

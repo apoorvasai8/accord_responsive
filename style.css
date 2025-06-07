@@ -442,7 +442,8 @@ video {
 
 @media (max-width: 1440px) {
   .hero-text-section {
-    width: 80vw;
+    width: 90vw;
+    margin-top:20px;
   }
   .hero-text-section h3 {
     font-size: 2em;
@@ -451,8 +452,8 @@ video {
     font-size: 1em;
   }
   .apply-btn {
-    font-size: 1.7em;
-    width: 250px;
+    font-size: 1.2em;
+    width: 200px;
     padding: 5px 10px;
   }
   .admission-process-section {

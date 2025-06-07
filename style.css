@@ -445,13 +445,13 @@ video {
     width: 80vw;
   }
   .hero-text-section h3 {
-    font-size: 2em;
+    font-size: 3em;
   }
   .hero-text-section p {
-    font-size: 1em;
+    font-size: 2em;
   }
   .apply-btn {
-    font-size: 1em;
+    font-size: 1.7em;
     width: 250px;
     padding: 5px 10px;
   }
@@ -459,12 +459,12 @@ video {
     padding: 50px 60px;
   }
 }
-@media (min-width: 601px) {
+/* @media (min-width: 601px) {
   .apply-btn {
     font-size: 0.7em;
     padding: 5px 10px;
   }
-}
+} */
 @media (max-width: 767px) {
   .grids {
     display: flex;

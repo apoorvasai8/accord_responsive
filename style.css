@@ -445,10 +445,10 @@ video {
     width: 80vw;
   }
   .hero-text-section h3 {
-    font-size: 1em;
+    font-size: 24px;
   }
   .hero-text-section p {
-    font-size: 0.4em;
+    font-size: 18px;
   }
   .apply-btn {
     font-size: 1.7em;
